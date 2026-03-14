@@ -21,3 +21,8 @@ print("My name is " + 'Ashim Aakash Roy')
 greeting= "Hello"
 name= "Ashim Aakash Roy"
 print(greeting+" "+name)
+
+#concatenation using input function
+greeting= "Hello"
+name= input("Enter your name: ")
+print(greeting+" "+name)
