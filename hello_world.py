@@ -14,5 +14,10 @@ print('This is also a valid string')
 print("Today's weather is so nice...")
 print('We can also use "quotes"')
 
-#concatenation
+#concatenation of string literals
 print("My name is " + 'Ashim Aakash Roy')
+
+#concatenation using variables
+greeting= "Hello"
+name= "Ashim Aakash Roy"
+print(greeting+" "+name)
