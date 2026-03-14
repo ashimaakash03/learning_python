@@ -7,3 +7,12 @@ print(9//2)
 print(9%2)
 print()
 print('End...')
+
+#basics of strings
+print("Learning Python")
+print('This is also a valid string')
+print("Today's weather is so nice...")
+print('We can also use "quotes"')
+
+#concatenation
+print("My name is " + 'Ashim Aakash Roy')
