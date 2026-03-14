@@ -26,3 +26,9 @@ print(greeting+" "+name)
 greeting= "Hello"
 name= input("Enter your name: ")
 print(greeting+" "+name)
+
+''' Escape characters '''
+splitString= 'Hi!\nMy name is Ashim Aakash Roy\nI\'m 28 years old'
+anotherString= 'The\tPython\tprograms\tare\tin C:\\Music\\Python\tfolder'
+print(splitString)
+print(anotherString)
