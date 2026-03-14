@@ -1,1 +1,6 @@
 print("Hello, World!")
+print(10 + 20)
+print(15 * 3)
+print (16 ** 3)
+print()
+print('End...')
