@@ -27,6 +27,11 @@ greeting= "Hello"
 name= input("Enter your name: ")
 print(greeting+" "+name)
 
+#variable typecheck using type method
+print(type(greeting))
+print(type(name))
+# even if a numerical value is entered in the CLI for the name variable, it is automatically converted to str.
+
 ''' Escape characters '''
 splitString= 'Hi!\nMy name is Ashim Aakash Roy\nI\'m 28 years old'
 anotherString= 'The\tPython\tprograms\tare\tin C:\\Music\\Python\tfolder'
