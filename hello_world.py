@@ -34,7 +34,10 @@ print(type(name))
 name= 8085
 print(type(name))
 
-''' Escape characters '''
+# print("up "+name)
+#Code on line 37 gives an error because we are trying to add string with an integer, which is not possible in Python. Gives a TypeError.
+
+#Escape characters
 splitString= 'Hi!\nMy name is Ashim Aakash Roy\nI\'m 28 years old'
 anotherString= 'The\tPython\tprograms\tare\tin C:\\Music\\Python\tfolder'
 print(splitString)
