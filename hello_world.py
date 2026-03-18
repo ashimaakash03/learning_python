@@ -34,21 +34,3 @@ splitString= 'Hi!\nMy name is Ashim Aakash Roy\nI\'m 28 years old'
 anotherString= 'The\tPython\tprograms\tare\tin C:\\Music\\Python\tfolder'
 print(splitString)
 print(anotherString)
-
-num1= 3
-num2= 12
-print("Mathematical Operators...")
-print(num1+num2)
-print(num2-num1)
-print(num1-num2)
-print(num1*num2)
-print(num1/num2)
-print(num1//num2)
-print(num2/num1)
-print(num2//num1)
-print(num1%num2)
-print(num2%num1)
-print(num1**num2)
-print(num1**num1)
-print(num2**num2)
-print(num2**num1)
