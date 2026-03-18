@@ -15,5 +15,3 @@ print(parrot[-5])
 print(parrot[-11])
 print(parrot[-8])
 print(parrot[-6])
-
-print(len(parrot))
