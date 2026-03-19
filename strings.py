@@ -20,8 +20,8 @@ print(parrot[-6])
 print("size")
 print(len(parrot))
 print()
-#slicing a string
-print(parrot[1:6]) #Starting from index 1, 6 characters 'orweg'
+#slicing a string using positive indexing
+print(parrot[0:6]) #Starting from index 1, 6 characters 'Norweg'
 print(parrot[3:5]) #from character at index 3 to character at index 5, not including the character
 # at index 5 'we'
 print(parrot[0:9]) #from character at index 0 to character at index 9, not including the character
@@ -30,3 +30,9 @@ print(parrot[:9]) #if we do not provide start index, default is considered as 0.
 print(parrot[10:14]) #'Blue'
 print(parrot[10:]) #if we do not provide any value after ':', it continues till the end
 print(parrot[:9]+parrot[9:]) #whole string is obtained
+
+print()
+#slicing a string using negative indexing
+print(parrot[-4:-2])
+print(parrot[-4:12]) #since 12= 14-2
+print(parrot[-14: -8]) #outputs 'Norweg', same as the code on line 24
