@@ -36,3 +36,13 @@ print()
 print(parrot[-4:-2])
 print(parrot[-4:12]) #since 12= 14-2
 print(parrot[-14: -8]) #outputs 'Norweg', same as the code on line 24
+print(parrot[-11: -9]) # outputs 'we'
+print()
+
+# slicing using positive index and step value
+print(parrot[0:8:2]) #Outputs 'Nrei', step= 2
+print(parrot[0:8:3]) #Outputs 'Nwi'
+
+number= "9,223,372,036,854,775,807"
+print(number[1::4]) #output is ,,,,,,
+#All the way upto the end since stop value is not provided
