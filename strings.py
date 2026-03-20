@@ -46,3 +46,14 @@ print(parrot[0:8:3]) #Outputs 'Nwi'
 number= "9,223,372,036,854,775,807"
 print(number[1::4]) #output is ,,,,,,
 #All the way upto the end since stop value is not provided
+
+#negative step
+my_name= "abcdefghijklmnopqrstuvwxyz"
+print(my_name[25:0:-1]) #complete my_name is printed in reverse (except 'a')
+print(my_name[25::-1]) #output includes 'a'
+print(my_name[25::-2]) #output is 'zxvtrpnljhfdb'
+print(my_name[12:3:-2]) #output is 'mkige'
+print(my_name[-10:-13:-1]) # output is 'qpo'
+print(my_name[4::-1]) #output is 'edbca'
+print(my_name[:-9:-1]) #output is 'zyxwvuts'
+print(my_name[:-9:])
