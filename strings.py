@@ -56,4 +56,4 @@ print(my_name[12:3:-2]) #output is 'mkige'
 print(my_name[-10:-13:-1]) # output is 'qpo'
 print(my_name[4::-1]) #output is 'edbca'
 print(my_name[:-9:-1]) #output is 'zyxwvuts'
-print(my_name[:-9:])
+print(my_name[:-9:]) #output is 'abcdefghijklmnopq'
