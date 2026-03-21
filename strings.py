@@ -21,7 +21,7 @@ print("size")
 print(len(parrot))
 print()
 #slicing a string using positive indexing
-print(parrot[0:6]) #Starting from index 1, 6 characters 'Norweg'
+print(parrot[0:6]) #Starting from index 0, 6 characters 'Norweg'
 print(parrot[3:5]) #from character at index 3 to character at index 5, not including the character
 # at index 5 'we'
 print(parrot[0:9]) #from character at index 0 to character at index 9, not including the character
