@@ -6,3 +6,10 @@ print("Hello "*5)
 # print("Hello " * 5 +4) gives error
 print("Hello " * (5+4)) #prints Hello 9 times
 print("Hello " * 5 + "4") #prints Hello 5 times followed by a 4. No error since 4 is of the type str
+
+#To check if a big string consists a small string. Returns true if present. Otherwise, returns false.
+today= "sunday"
+print("sun" in today)
+print("day" in today)
+print("sat" in today)
+print("Ashim " in my_name)
