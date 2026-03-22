@@ -24,3 +24,6 @@ print("Days of the week: {0}, {1}, {2}, {3}, {4}, {5}, {6}"
 print("Jan: {0} days. Mar: {0} days, May: {0} days, Jul: {0} days, Aug: {0} days, Oct: {0} days, Dec: {0} days\n "
       "Apr: {1} days, June: {1} days, Sep: {1} days, Nov: {1} days"
       .format(31, 30)) #reusability
+
+for num in range(1, 16):
+      print("Number {0:2}, squared is {1:3}, cubed is {2:4}".format(num, num**2, num**3))
