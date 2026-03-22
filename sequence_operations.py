@@ -16,4 +16,7 @@ print("Ashim " in my_name)
 
 age= 28
 print("My age is "+str(age)+" years old.") #Type coercion: force int to str
-print("My age is {0} years old.".format(age)) #No type coercion
+print("My age is {0} years old.".format(age)) #No type coercion. Recommended approach
+#Another example
+print("Days of the week: {0}, {1}, {2}, {3}, {4}, {5}, {6}"
+      .format("Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"))
