@@ -13,3 +13,7 @@ print("sun" in today)
 print("day" in today)
 print("sat" in today)
 print("Ashim " in my_name)
+
+age= 28
+print("My age is "+str(age)+" years old.") #Type coercion: force int to str
+print("My age is {0} years old.".format(age)) #No type coercion
