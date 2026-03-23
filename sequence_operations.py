@@ -28,3 +28,6 @@ print("Jan: {0} days. Mar: {0} days, May: {0} days, Jul: {0} days, Aug: {0} days
 for num in range(1, 16):
       print("Number {0:<2}, squared is {1:<3}, cubed is {2:<4}".format(num, num**2, num**3))
 #right aligned by default, '<' is used to align field values to the left
+
+#format strings without using the .format() method
+print(f"My age is {age} years old.")
