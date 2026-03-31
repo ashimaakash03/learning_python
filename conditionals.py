@@ -30,3 +30,12 @@ if age<17 or age>66:
 	print(f"{name} is not elligible to work")
 else:
 	print(f"{name} is elligible to work")
+
+day= "Sunday"
+temperature= 35
+raining= True
+
+if day == "Monday" and temperature > 27 and not raining:
+	print(f"{day} is good to learn Python")
+else:
+	print(f"Go out on {day}")
