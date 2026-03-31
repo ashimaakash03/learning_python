@@ -19,7 +19,14 @@ print(f"{name} is {age} years old.")
 # 	print(f"Your got it right...")
 
 #guess if person is allowed to work
+
+#if age<=16 and age>=65
 if 16 <= age <= 65:
 	print(f"{name} is elligible to work")
 else:
 	print(f"{name} is not elligible to work")
+
+if age<17 or age>66:
+	print(f"{name} is not elligible to work")
+else:
+	print(f"{name} is elligible to work")
