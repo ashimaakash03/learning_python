@@ -39,3 +39,14 @@ if day == "Monday" and temperature > 27 and not raining:
 	print(f"{day} is good to learn Python")
 else:
 	print(f"Go out on {day}")
+
+# if 0:
+# 	print("True") It is an unreachable code because 0 is always considered false
+# else:
+# 	print("False")
+
+name= input("What is your name? ")
+if name:
+	print(f"Hello, {name}!")
+else:
+	print(f"Don't you have a name?")
