@@ -57,3 +57,13 @@ if letter in parrot:
 	print(f"{letter} is in {parrot}")
 else:
 	print(f"{letter} is not in {parrot}")
+
+
+# Challenge: using conditionals
+name= input("What is your name? ")
+age= int(input(f"What is your age, {name}? "))
+
+if 18<= age <= 30:
+	print(f"{name} is elligible to go for the special holiday...")
+else:
+	print(f"We are sorry, {name}. You are not eligible to go for the special holiday.")
