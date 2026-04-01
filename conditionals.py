@@ -50,3 +50,10 @@ if name:
 	print(f"Hello, {name}!")
 else:
 	print(f"Don't you have a name?")
+
+parrot= "Norwegian Blue"
+letter= input("Enter a character: ")
+if letter in parrot:
+	print(f"{letter} is in {parrot}")
+else:
+	print(f"{letter} is not in {parrot}")
