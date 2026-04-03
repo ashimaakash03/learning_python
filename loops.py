@@ -13,16 +13,28 @@ for num in range(1, 21):
 		print(f"Number {num} is even")
 	else:
 		print(f"The square of odd number {num} is {num ** 2}")
-
+print()
 #print all numbers from 1 to 20
 #here we omitted the start value. Starts from 0 by default
 for num in range(21):
 	print(f"Number is now {num}")
-
+print()
 #Introducing the positive step value. If the step value is omitted, it is considered to be 1
 for num in range(0,21, 2):
 	print(f"Number is now {num}") # Output is 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.
+print()
 #Since step value is 2
 for num in range(0,21, 5):
 	print(f"Number is now {num}")
+print()
 # Output is 0, 5, 10, 15, 20. Since step value is 5
+
+#Introducing the negative step value. Start value is greater than stop value for negative step
+for num in range(20,0, -2):
+	print(f"Number is now {num}") # Output is 20, 18, 16, 14, 12, 10, 8, 6, 4, 2.
+#Since step value is -2.
+print()
+for num in range(20,0, -5):
+	print(f"Number is now {num}")
+# Output is 20, 15, 10, 5. Since step value is -5.
+print()
