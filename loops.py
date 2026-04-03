@@ -1,4 +1,4 @@
-iterable= "ASHIM AAKASH ROY"
+iterable = "ASHIM AAKASH ROY"
 
 for char in iterable:
 	print(char.casefold())
@@ -12,4 +12,9 @@ for num in range(1, 21):
 	if num % 2 == 0:
 		print(f"Number {num} is even")
 	else:
-		print(f"The square of odd number {num} is {num**2}")
+		print(f"The square of odd number {num} is {num ** 2}")
+
+#print all numbers from 1 to 20
+#here we omitted the start value. Starts from 0 by default
+for num in range(21):
+	print(f"Number is now {num}")
