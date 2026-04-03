@@ -67,3 +67,9 @@ if 18<= age <= 30:
 	print(f"{name} is elligible to go for the special holiday...")
 else:
 	print(f"We are sorry, {name}. You are not eligible to go for the special holiday.")
+
+#recommended way to write the condition
+if age in range(18, 31):
+	print(f"{name} is elligible to go for the special holiday...")
+else:
+	print(f"We are sorry, {name}. You are not eligible to go for the special holiday.")
