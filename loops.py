@@ -38,3 +38,9 @@ for num in range(20,0, -5):
 	print(f"Number is now {num}")
 # Output is 20, 15, 10, 5. Since step value is -5.
 print()
+
+#Nested for loop
+for num1 in range(1, 11):
+	for num2 in range(1, 16):
+		print(f"{num1} times {num2} are {num1 * num2}")
+	print()
