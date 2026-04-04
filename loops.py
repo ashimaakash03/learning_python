@@ -62,5 +62,8 @@ print(f"Correct number is: {correct_number}")
 while guessed_number != correct_number:
 	print("Incorrect guess. Try again")
 	guessed_number = int(input("Guess a number: "))
+	if guessed_number == 0:
+		print("You have quit the game")
+		break
 	if guessed_number == correct_number:
 		print("Correct! You guessed the number")
