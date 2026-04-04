@@ -1,3 +1,5 @@
+from operator import index
+
 iterable = "ASHIM AAKASH ROY"
 
 for char in iterable:
@@ -44,3 +46,11 @@ for num1 in range(1, 11):
 	for num2 in range(1, 16):
 		print(f"{num1} times {num2} are {num1 * num2}")
 	print()
+print()
+
+#Demonstrate a simple while loop to print numbers 1 to 15
+index = 1
+while index in range(1, 16):
+	print(f"Number is now {index:>2}")
+	index += 1
+print()
