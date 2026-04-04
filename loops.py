@@ -1,4 +1,4 @@
-from operator import index
+import random
 
 iterable = "ASHIM AAKASH ROY"
 
@@ -55,8 +55,10 @@ while index in range(1, 16):
 	index += 1
 print()
 
-correct_number= 7
-guessed_number= int(input("Guess a number: "))
+highest_limit= 15
+correct_number= random.randint(1,highest_limit)
+guessed_number= int(input(f"Guess a number between 1 and {highest_limit}: "))
+print(f"Correct number is: {correct_number}")
 while guessed_number != correct_number:
 	print("Incorrect guess. Try again")
 	guessed_number = int(input("Guess a number: "))
