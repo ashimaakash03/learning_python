@@ -54,3 +54,11 @@ while index in range(1, 16):
 	print(f"Number is now {index:>2}")
 	index += 1
 print()
+
+correct_number= 7
+guessed_number= int(input("Guess a number: "))
+while guessed_number != correct_number:
+	print("Incorrect guess. Try again")
+	guessed_number = int(input("Guess a number: "))
+	if guessed_number == correct_number:
+		print("Correct! You guessed the number")
