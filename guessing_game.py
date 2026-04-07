@@ -9,7 +9,7 @@ guesses = 0
 print(f"Please guess a number between {low} and {high}")
 input("Press enter to continue...")
 
-while low < high:
+while low <= high:
 	guesses += 1
 	mid = (low + high) // 2
 	print(f"Is your number {mid}")
@@ -28,4 +28,5 @@ while low < high:
 		print("You choose to quit the game")
 		break
 else:
-	print(f"You got it in {guesses} guesses! The number is {mid}")
+	print(f"You got it in {guesses} guesses!")
+	print(f"The number is {mid}")
