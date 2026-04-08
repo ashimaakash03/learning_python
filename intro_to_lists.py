@@ -8,4 +8,4 @@ computer_parts= ["computer",
 for part in computer_parts:
 	print(part)
 print()
-print(computer_parts[3]) # Output: mouse
+print(computer_parts[2]) # Output: keyboard
