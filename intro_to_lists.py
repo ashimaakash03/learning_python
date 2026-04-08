@@ -7,3 +7,5 @@ computer_parts= ["computer",
 #print a list
 for part in computer_parts:
 	print(part)
+print()
+print(computer_parts[3]) # Output: mouse
