@@ -39,4 +39,11 @@ computer_parts += ["console"] # same as appending at the end of list
 print(computer_parts)
 print(id(computer_parts)) # same output as two lines above, because lists are
 # mutable. No new objects are created
+print(another_list)
 print(id(another_list))
+another_shopping_list= another_list
+# 1 list, 3 names: computer_parts, another_list, another_shopping_list
+print("All 3 variables point to the same object")
+print("computer_parts: {}".format(id(computer_parts)))
+print("another_list: {}".format(id(another_list)))
+print("another_shopping_list: {}".format(id(another_shopping_list)))
