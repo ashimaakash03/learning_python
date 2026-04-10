@@ -13,7 +13,7 @@ print(id(result)) #different output because result now points to False object
 # which is different from True object
 print(id(another_result)) #another_result still points to the True object
 
-print("Immutability in Boolean")
+print("Immutability in String")
 string= "Ashim"
 another_string= string
 print(id(string))
@@ -23,3 +23,20 @@ print(id(another_string))
 string += "Aakash"
 print(id(string)) #different output because result now points to new value
 print(id(another_string)) #another_result still points to "Ashim"
+
+#mutable types: list, set, dict
+print("Mutability in Lists")
+computer_parts= ["computer",
+                 "monitor",
+                 "keyboard",
+                 "mouse",
+                 "mouse pad"]
+another_list= computer_parts
+print(id(computer_parts))
+print(id(another_list))
+# Both the lines above have the same output
+computer_parts += ["console"] # same as appending at the end of list
+print(computer_parts)
+print(id(computer_parts)) # same output as two lines above, because lists are
+# mutable. No new objects are created
+print(id(another_list))
