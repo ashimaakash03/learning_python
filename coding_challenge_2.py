@@ -30,7 +30,7 @@ while choice != 0:
 		print("You selected an invalid option. Please select an option "
 		      "between 1 to 5")
 		for part in available_items:
-			print(part)
+			print(f"{available_items.index(part)+1}. {part}")
 		choice = int(input("What do you wish to add next?"))
 
 else:
