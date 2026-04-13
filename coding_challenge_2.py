@@ -1,8 +1,9 @@
 # Write a program to append an item to the list according to the user input.
 
-list_items=[]
+available_items= ["computer", "monitor", "keyboard", "mouse", "mouse pad"]
+list_items = []
 
-choice= int(input("Please select the items to add to the list..."))
+choice = int(input("Please select the items to add to the list..."))
 
 while choice != 0:
 	if choice == 1:
@@ -28,9 +29,10 @@ while choice != 0:
 	else:
 		print("You selected an invalid option. Please select an option "
 		      "between 1 to 5")
+		for part in available_items:
+			print(part)
 		choice = int(input("What do you wish to add next?"))
 
 else:
 	print(f"You selected option {choice}. That means you quit")
 	print(f"The list contains: {list_items}")
-
