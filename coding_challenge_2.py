@@ -3,10 +3,15 @@
 available_items= ["computer", "monitor", "keyboard", "mouse", "mouse pad",
                   "HDMI Cable", "DVD Drive"]
 list_items = []
+valid_choices= []
+
+for i in range(len(available_items)):
+	valid_choices.append(i + 1)
+print(valid_choices)
 
 choice = int(input("Please select the items to add to the list..."))
 
-while choice != 0:
+while choice in valid_choices:
 	if choice == 1:
 		print(f"You selected option {choice}. Adding computer")
 		list_items.append("computer")
