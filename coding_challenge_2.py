@@ -1,9 +1,9 @@
 # Write a program to append an item to the list according to the user input.
 
-available_items= ["computer", "monitor", "keyboard", "mouse", "mouse pad",
-                  "HDMI Cable", "DVD Drive"]
+available_items = ["computer", "monitor", "keyboard", "mouse", "mouse pad",
+                   "HDMI Cable", "DVD Drive"]
 list_items = []
-valid_choices= []
+valid_choices = []
 
 for i in range(len(available_items)):
 	valid_choices.append(i + 1)
@@ -11,40 +11,42 @@ print(valid_choices)
 
 choice = int(input("Please select the items to add to the list..."))
 
-while choice in valid_choices:
-	if choice == 1:
-		print(f"You selected option {choice}. Adding computer")
-		list_items.append("computer")
-		choice = int(input("What do you wish to add next?"))
-	elif choice == 2:
-		print(f"You selected option {choice}. Adding monitor")
-		list_items.append("monitor")
-		choice = int(input("What do you wish to add next?"))
-	elif choice == 3:
-		print(f"You selected option {choice}. Adding keyboard")
-		list_items.append("keyboard")
-		choice = int(input("What do you wish to add next?"))
-	elif choice == 4:
-		print(f"You selected option {choice}. Adding mouse")
-		list_items.append("mouse")
-		choice = int(input("What do you wish to add next?"))
-	elif choice == 5:
-		print(f"You selected option {choice}. Adding mouse pad")
-		list_items.append("mouse pad")
-		choice = int(input("What do you wish to add next?"))
-	elif choice == 6:
-		print(f"You selected option {choice}. Adding HDMI Cable")
-		list_items.append("HDMI Cable")
-		choice = int(input("What do you wish to add next?"))
-	elif choice == 7:
-		print(f"You selected option {choice}. Adding DVD Drive")
-		list_items.append("DVD Drive")
-		choice = int(input("What do you wish to add next?"))
+while choice != 0:
+	if choice in valid_choices:
+
+		if choice == 1:
+			print(f"You selected option {choice}. Adding computer")
+			list_items.append("computer")
+			choice = int(input("What do you wish to add next?"))
+		elif choice == 2:
+			print(f"You selected option {choice}. Adding monitor")
+			list_items.append("monitor")
+			choice = int(input("What do you wish to add next?"))
+		elif choice == 3:
+			print(f"You selected option {choice}. Adding keyboard")
+			list_items.append("keyboard")
+			choice = int(input("What do you wish to add next?"))
+		elif choice == 4:
+			print(f"You selected option {choice}. Adding mouse")
+			list_items.append("mouse")
+			choice = int(input("What do you wish to add next?"))
+		elif choice == 5:
+			print(f"You selected option {choice}. Adding mouse pad")
+			list_items.append("mouse pad")
+			choice = int(input("What do you wish to add next?"))
+		elif choice == 6:
+			print(f"You selected option {choice}. Adding HDMI Cable")
+			list_items.append("HDMI Cable")
+			choice = int(input("What do you wish to add next?"))
+		elif choice == 7:
+			print(f"You selected option {choice}. Adding DVD Drive")
+			list_items.append("DVD Drive")
+			choice = int(input("What do you wish to add next?"))
 	else:
 		print(f"You selected an invalid option. Please select an option "
-		      f"between 1 to {len(available_items)}")
+			      f"between 1 to {len(available_items)}")
 		for index, part in enumerate(available_items):
-			print(f"{index+1}. {part}")
+			print(f"{index + 1}. {part}")
 		choice = int(input("What do you wish to add next?"))
 
 else:
