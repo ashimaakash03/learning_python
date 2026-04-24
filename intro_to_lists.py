@@ -27,3 +27,4 @@ print(f"Number of 's': {river.count('s')}")  # 4 's' present in mississippi
 print(f"Number of 'i': {river.count('i')}")  # 4 'i' present in mississippi
 print(
 	f"Number of 'iss': {river.count('iss')}")  # 2 'iss' present in mississippi
+print(f"Number of 'issi': {river.count('issi')}") # 1 'issi'
