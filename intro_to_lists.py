@@ -28,3 +28,12 @@ print(f"Number of 'i': {river.count('i')}")  # 4 'i' present in mississippi
 print(
 	f"Number of 'iss': {river.count('iss')}")  # 2 'iss' present in mississippi
 print(f"Number of 'issi': {river.count('issi')}") # 1 'issi'
+
+even= [2, 4, 6, 8]
+odd= [1, 3, 5, 7, 9]
+
+even.extend(odd) # This will append the elements of odd list to the end of
+# the even list
+print(even) # No new list is created, since lists are mutable
+another_even= even # Both the list will have same content
+print(another_even)
