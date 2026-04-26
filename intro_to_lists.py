@@ -44,3 +44,15 @@ print(f"Another Even list also sorted: {another_even}")
 even.sort(reverse=True) # list is sorted in the descending / reverse order
 print(f"Original list in descending order: {even}")
 print(f"Another Even list also sorted in reverse order: {another_even}")
+
+pangram= "The quick brown fox jumps over the lazy dog"
+letters= sorted(pangram) # sorted() function takes any iterable, but always
+# returns a list. So, letters will ba a list
+print(letters) # All characters sorted by ASCII order
+
+# sort() function does not create a new list, it modifies only an existing
+# list whereas sorted() function always returns a list
+
+numbers= [1.5, 3.8, 2.4, 8.6, 4.9, 7.2, 9.5, 5.3, 6.5]
+sorted_numbers= sorted(numbers)
+print(sorted_numbers)
