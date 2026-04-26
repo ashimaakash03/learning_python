@@ -56,3 +56,10 @@ print(letters) # All characters sorted by ASCII order
 numbers= [1.5, 3.8, 2.4, 8.6, 4.9, 7.2, 9.5, 5.3, 6.5]
 sorted_numbers= sorted(numbers)
 print(sorted_numbers)
+
+names= ["Aayush", "pritam", "Revanth", "lakshya", "shivam", "atharva"]
+sorted_names= sorted(names)
+print(sorted_names) # sorting according to ASCII where capital letters take
+# higher precedence over the lowercase letters
+names.sort(key=str.casefold)
+print(names) # sorting with case ignored.
