@@ -63,3 +63,14 @@ print(sorted_names) # sorting according to ASCII where capital letters take
 # higher precedence over the lowercase letters
 names.sort(key=str.casefold)
 print(names) # sorting with case ignored.
+
+#slicing a list
+sub_list= names[3:]
+print(sub_list)
+print(names) # just to confirm that original names list is modified due to
+# slicing.
+sub_list= "Ripesh"
+names += sub_list #Appending each character one by one
+names += [sub_list] # Type converted to list to add complete name at last
+names.append(sub_list)
+print(names)
