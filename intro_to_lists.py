@@ -37,3 +37,10 @@ even.extend(odd) # This will append the elements of odd list to the end of
 print(even) # No new list is created, since lists are mutable
 another_even= even # Both the list will have same content
 print(another_even)
+
+even.sort() # This will sort the list 'even' in ascending order by default
+print(f"After sorting, the list is: {even}")
+print(f"Another Even list also sorted: {another_even}")
+even.sort(reverse=True) # list is sorted in the descending / reverse order
+print(f"Original list in descending order: {even}")
+print(f"Another Even list also sorted in reverse order: {another_even}")
