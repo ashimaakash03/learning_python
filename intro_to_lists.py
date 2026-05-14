@@ -74,3 +74,9 @@ names += sub_list #Appending each character one by one
 names += [sub_list] # Type converted to list to add complete name at last
 names.append(sub_list)
 print(names)
+
+del names[3:]
+print(names)
+
+del numbers[0:4]
+print(numbers)
